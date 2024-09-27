@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/effd3867de.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <div class="header">
+            <h1>Todo List</h1>
+            <input type="text" id="inputTodo">
+            <button id="submitBtn" onclick="addTodo()">Create todo</button>
+        </div>
+        <div class="content">
+            <div id="todoContainer"></div>
+        </div>
+    </main>
+
+    <small>
+        <a href="https://github.com/BulletOnli" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://github.com/Daoang" target="_blank">BULLET</a>
+        <a href="https://www.instagram.com/notlike.rey?igsh=MXM5Nmt6aHp3ZmtuNg== target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    </small>
+
+    <script src="index.js"></script>
+</body>
+</html>
